@@ -1,0 +1,151 @@
+body {
+  background-image: url("../صور-طبيعة-جميلة-روعة-وساحرة.jpg");
+  height: 100vh;
+  background-size: 100% 100%;
+}
+.active {
+  border: 3px solid #09c;
+}
+nav {
+  background-color: #171820d5;
+}
+li {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+nav p {
+  font-size: 12px;
+}
+.text {
+  font-weight: 900;
+  font-size: 30px;
+  font-family: "Lemon", serif;
+}
+/* .bord:hover{
+    border: 3px solid #09c; 
+    border-radius: 20%;
+    color: #09c;
+    padding-inline: 5px;
+} */
+
+/* /////////////////////////////////////// */
+header .container {
+  width: 75%;
+  margin: auto;
+}
+
+.container input {
+  width: 100%;
+  background-color: #171820d5;
+}
+
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+.day {
+  background-color: #171820d5;
+  padding-block: 5px;
+  border-top-left-radius: 10px;
+}
+.container .day p {
+  color: aliceblue;
+}
+.container .deg {
+  background-color: #272d58c0;
+  padding: 30px 15px;
+  color: aliceblue;
+  border-bottom-left-radius: 10px;
+}
+.container .deg p {
+  font-size: 20px;
+}
+.container .deg .degree p {
+  font-size: 80px;
+  font-weight: 700;
+}
+input {
+  border: 2px solid transparent;
+}
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+
+footer .container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+footer .container input {
+  width: 70%;
+}
+footer .container ul {
+  width: 30%;
+  display: flex;
+  list-style: none;
+}
+footer .container li {
+  padding: 10px;
+  background-color: #171820d5;
+  margin: 5px;
+  border-radius: 50%;
+}
+footer .container i {
+  color: #09c;
+}
+footer .container li:hover {
+  background-color: #09c;
+}
+footer .container li:hover i {
+  color: aliceblue;
+}
+footer {
+  background-color: #171820d5;
+  color: aliceblue;
+}
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+.input {
+  background-color: #171820d5;
+}
+.input a {
+  text-decoration: none;
+  color: darkgray;
+}
+section .container-fluid .con-text {
+  background-color: #1f244dc0;
+  border-radius: 10px;
+  margin: 20px;
+}
+section .container-fluid h3 {
+  color: rgb(255, 0, 0);
+}
+section .container-fluid p {
+  color: rgb(0, 255, 221);
+}
+
+.container-fluid textarea {
+  width: 100%;
+  height: 100px;
+  background-color: #171820d5;
+  border-radius: 20px;
+  padding: 10px 5px;
+}
+
+.inform {
+  background-color: #1f244dc0;
+  border-radius: 10px;
+  margin: 20px;
+  min-height: 20rem;
+  width: 80%;
+  color: aliceblue;
+  font-size: 14px;
+}
+
+.inform i {
+  color: #09c;
+}
+.inform a {
+  color: aliceblue;
+  text-decoration: none;
+}
+.inform iframe {
+  width: 100%;
+  height: 200px;
+  padding-bottom: 20px;
+}
